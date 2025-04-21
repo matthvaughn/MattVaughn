@@ -25,6 +25,11 @@ a {
 
 .titlecolor {color: rgb(155, 108, 50);}
 
+.on-page-anchors {
+    display: block;
+    text-align: center;
+}
+
 a:hover {
     text-decoration: underline;
     font-weight: bold;
