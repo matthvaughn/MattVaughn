@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(53, 53, 53);
+}
+
+h1 { 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(45, 45, 45);
+    font-weight: normal;
+}
+
+.bold {font-weight: bold;}
+
+a { 
+    color: rgb(0, 60, 109);
+    text-decoration: none;
+}
+
+.titlecolor {color: rgb(155, 108, 50);}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {color: none;}
+
+.homebg {
+    background-image: url('../Images/MTB1.jpg');
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.centercenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_cor {background-color: rgb(177, 224, 255);}
+
+.divimg { 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
